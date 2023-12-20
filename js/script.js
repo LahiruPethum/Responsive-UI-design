@@ -23,3 +23,5 @@ sr.reveal('.share',{delay:950, origin:'bottom'});
 sr.reveal('.home-img',{delay:1000, origin:'right'});
 sr.reveal('.search-box',{delay:400, origin:'top'});
 sr.reveal('.social-media',{delay:1000, origin:'left'});
+sr.reveal('.fa-shopping-cart',{delay:1000, origin:'right'})
+sr.reveal('.signIn',{delay:1000, origin:'top'})
