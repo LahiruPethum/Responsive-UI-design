@@ -329,6 +329,10 @@ section {
     margin-top: 40px;
 }
 
+.search{
+    display: block;
+}
+
 @media(min-width:1850px) {
     header {
         padding: 15px 8%;
@@ -354,6 +358,9 @@ section {
         margin-top: -15px;
 
 
+    }
+    .search{
+        display: none;
     }
 }
 
@@ -384,6 +391,9 @@ section {
         bottom: 3rem;
         left: 8%;
         transition: .2s;
+    }
+    .search{
+        display: none;
     }
 }
 
@@ -434,6 +444,9 @@ section {
     .home-text h1{
 font-size: 40px;
     }
+    .search{
+        display: none;
+    }
 }
 
 @media(max-width:1020px) {
@@ -441,6 +454,9 @@ font-size: 40px;
         margin: 0 15px;
     }
 
+    .search{
+        display: none;
+    }
 
     .social-media {
         align-items: center;
@@ -530,6 +546,10 @@ font-size: 40px;
         height: auto;
     }
 
+    .search{
+        display: none;
+    }
+
 }
 
 @media(max-width:850px) {
@@ -581,6 +601,10 @@ font-size: 40px;
 
     .navbar.open {
         left: 0;
+    }
+
+    .search{
+        display: inline;
     }
 }
 
